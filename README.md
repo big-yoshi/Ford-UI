@@ -1,2 +1,2 @@
 # Ford-UI
-simple Ui i made for my favorite car ford mustang 
+its not fully responsive but still cool

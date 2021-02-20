@@ -22,8 +22,8 @@ $(window).on("load", function () {
     //gsap.to("#preloader img", { scale: 2, duration: 1 }, 0);
     //gsap.to("#preloader", { opacity: 0, duration: 1 }, 0);
     t1 = gsap.timeline();
-    t1.from(".first-section .right", { y: 1000, duration: 1.5 }, 0);
-    t1.from(".details", { x: 1000, opacity: 0, duration: 1.5 }, 2.5);
+    t1.from(".first-section .right", { y: 1000, duration: 1.5 }, 2);
+    t1.from(".details", { x: 1000, opacity: 0, duration: 1.5 }, 2.8);
 
     var t2 = gsap.timeline({ scrollTrigger: { trigger: ".second-section" } });
 
